@@ -1,0 +1,7 @@
+.idea
+.vscode
+node_modules
+.obsidian
+.DS_Store
+.*.swp
+work.iml
