@@ -8,9 +8,14 @@ class NotesIndexer {
     fileTags = {};
     fileTitles = {};
     tagsSynonymes = {};
+    
 
     constructor(notesFolder) {
         this.notesFolder = notesFolder;
+    }
+    
+    setNotesSeparator(separator) {
+        this.separator = separator;
     }
     
     setTagSynonymes(tagsSynonymes) {
@@ -173,7 +178,7 @@ class NotesIndexer {
     linkFile(file) {
         try {
             const data = this.readFileContent(this.notesFolder + '/' + file , 'utf8');
-            const separator = '\n### see also:\n';
+            const separator = '\n' + this.separator + '\n';
             const lines = data.split(separator);
             const tagsPrefix = this.getTagsPrefix(file);
             if (this.fileTags.hasOwnProperty(file)) {

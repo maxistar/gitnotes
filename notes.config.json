@@ -1,0 +1,24 @@
+{
+  "folders": {
+    "notes": "notes",
+    "diary": "diary"
+  },
+  "notes": {
+    "separator": "### see also:"
+  },
+  "synonyms": {
+    "programming": ["программирование"],
+    "продуктивность": ["productivity"],
+    "checklist": ["checklist", "чеклисты", "checklists", "чеклист"],
+    "lists": ["список", "list", "lists", "списки"],
+    "books": ["books", "книги"],
+    "projects": ["projects", "проекты"],
+    "japanese": ["японский"],
+    "persons": ["personen", "люди", "персоны"],
+    "languages": ["languages", "languages", "языки", "язык", "language", "sprache", "sprachen"],
+    "goldrad": ["голдрат", "голдрад"],
+    "travel": ["путешествия"],
+    "audiobooks": ["аудиокниги"]
+  }
+  
+}
